@@ -1,0 +1,8 @@
+2019-03-03 12:42:40,970  INFO [main] - com.testcase.TestLogger.main 24 - This is INFO 
+2019-03-03 12:42:40,970  WARN [main] - com.testcase.TestLogger.main 26 - This is WARN 
+2019-03-03 12:42:40,970 ERROR [main] - com.testcase.TestLogger.main 28 - This is ERROR 
+2019-03-03 12:42:40,970 FATAL [main] - com.testcase.TestLogger.main 30 - This is FATAL 
+2019-03-03 12:45:59,177  INFO [main] - com.testcase.TestLogger.main 24 - This is INFO 
+2019-03-03 12:45:59,181  WARN [main] - com.testcase.TestLogger.main 26 - This is WARN 
+2019-03-03 12:45:59,181 ERROR [main] - com.testcase.TestLogger.main 28 - This is ERROR 
+2019-03-03 12:45:59,181 FATAL [main] - com.testcase.TestLogger.main 30 - This is FATAL 

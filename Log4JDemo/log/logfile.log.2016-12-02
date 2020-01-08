@@ -1,0 +1,28 @@
+This is TRACE 
+This is DEBUG 
+This is INFO 
+This is WARN 
+This is ERROR 
+This is FATAL 
+2016-12-02 18:08:53,804 TRACE [main] - com.testcase.TestLogger.main 16 - This is TRACE 
+2016-12-02 18:08:53,806 DEBUG [main] - com.testcase.TestLogger.main 17 - This is DEBUG 
+2016-12-02 18:08:53,806  INFO [main] - com.testcase.TestLogger.main 18 - This is INFO 
+2016-12-02 18:08:53,807  WARN [main] - com.testcase.TestLogger.main 19 - This is WARN 
+2016-12-02 18:08:53,807 ERROR [main] - com.testcase.TestLogger.main 20 - This is ERROR 
+2016-12-02 18:08:53,807 FATAL [main] - com.testcase.TestLogger.main 21 - This is FATAL 
+2016-12-02 18:22:00,764 ERROR [main] - com.testcase.TestLogger.main 29 - java.lang.Exception: Test exception
+java.lang.Exception: Test exception
+	at com.testcase.TestLogger.main(TestLogger.java:18)
+2016-12-02 18:24:17,511 ERROR [main] - com.testcase.TestLogger.main 29 - java.lang.Exception: Test exception
+java.lang.Exception: Test exception
+	at com.testcase.TestLogger.main(TestLogger.java:18)
+2016-12-02 18:24:42,003 ERROR [main] - com.testcase.TestLogger.main 29 - java.lang.Exception: Test exception
+java.lang.Exception: Test exception
+	at com.testcase.TestLogger.main(TestLogger.java:18)
+2016-12-02 18:25:59,667 ERROR [main] - com.testcase.TestLogger.main 29 - Test exception
+2016-12-02 18:31:27,724 ERROR [main] - com.testcase.TestLogger.main 28 - java.lang.Exception: Test exception
+2016-12-02 18:35:23,106 ERROR [main] - com.testcase.TestLogger.main 28 - java.lang.Exception: Test exception
+2016-12-02 18:35:28,058 ERROR [main] - com.testcase.TestLogger.main 28 - java.lang.Exception: Test exception
+2016-12-02 18:35:47,257 ERROR [main] - com.testcase.TestLogger.main 28 - java.lang.Exception: Test exception
+2016-12-02 18:35:55,983 ERROR [main] - com.testcase.TestLogger.main 28 - java.lang.Exception: Test exception
+2016-12-02 18:36:01,247 ERROR [main] - com.testcase.TestLogger.main 28 - java.lang.Exception: Test exception

@@ -1,0 +1,7 @@
+2019-02-25 14:38:26,425 ERROR [main] - com.testcase.TestLogger.main 28 - java.lang.Exception: Test exception
+2019-02-25 14:39:49,320 TRACE [main] - com.testcase.TestLogger.main 20 - This is TRACE 
+2019-02-25 14:39:49,323 DEBUG [main] - com.testcase.TestLogger.main 21 - This is DEBUG 
+2019-02-25 14:39:49,323  INFO [main] - com.testcase.TestLogger.main 22 - This is INFO 
+2019-02-25 14:39:49,324  WARN [main] - com.testcase.TestLogger.main 23 - This is WARN 
+2019-02-25 14:39:49,324 ERROR [main] - com.testcase.TestLogger.main 24 - This is ERROR 
+2019-02-25 14:39:49,324 FATAL [main] - com.testcase.TestLogger.main 25 - This is FATAL 
