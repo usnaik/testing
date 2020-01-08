@@ -1,11 +1,11 @@
-package com.javatechie.pm.api.service;
+package com.upen.pm.api.service;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
-import com.javatechie.pm.api.dto.OrderRequest;
-import com.javatechie.pm.api.dto.OrderResponse;
-import com.javatechie.pm.api.util.NotificationUtil;
+import com.upen.pm.api.dto.OrderRequest;
+import com.upen.pm.api.dto.OrderResponse;
+import com.upen.pm.api.util.NotificationUtil;
 
 @Service
 public class OrderService {

@@ -1,4 +1,4 @@
-package com.javatechie.pm.api;
+package com.upen.pm.api;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;
@@ -14,10 +14,10 @@ import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 import org.powermock.modules.junit4.PowerMockRunner;
 
-import com.javatechie.pm.api.dto.OrderRequest;
-import com.javatechie.pm.api.dto.OrderResponse;
-import com.javatechie.pm.api.service.OrderService;
-import com.javatechie.pm.api.util.NotificationUtil;
+import com.upen.pm.api.dto.OrderRequest;
+import com.upen.pm.api.dto.OrderResponse;
+import com.upen.pm.api.service.OrderService;
+import com.upen.pm.api.util.NotificationUtil;
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest(fullyQualifiedNames = "com.javatechie.pm.api.*")

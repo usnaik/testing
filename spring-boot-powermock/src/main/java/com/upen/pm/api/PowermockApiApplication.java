@@ -1,4 +1,4 @@
-package com.javatechie.pm.api;
+package com.upen.pm.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.javatechie.pm.api.dto.OrderRequest;
-import com.javatechie.pm.api.dto.OrderResponse;
-import com.javatechie.pm.api.service.OrderService;
+import com.upen.pm.api.dto.OrderRequest;
+import com.upen.pm.api.dto.OrderResponse;
+import com.upen.pm.api.service.OrderService;
 
 @SpringBootApplication
 @RestController

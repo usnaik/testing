@@ -1,4 +1,4 @@
-package com.javatechie.pm.api.dto;
+package com.upen.pm.api.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.javatechie.pm.api.util;
+package com.upen.pm.api.util;
 
 public class NotificationUtil {
 	
