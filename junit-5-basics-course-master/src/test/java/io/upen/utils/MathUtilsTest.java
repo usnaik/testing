@@ -1,12 +1,14 @@
 package io.upen.utils;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.RepeatedTest;
+import org.junit.jupiter.api.RepetitionInfo;
 import org.junit.jupiter.api.Test;
-
-import io.upen.utils.MathUtils;
 
 class MathUtilsTest {
 	
@@ -53,7 +55,13 @@ class MathUtilsTest {
 		assertEquals(314.1592653589793, mathUtils.computeCircleArea(10), 
 				"Should return right circle area");
 	}
-	
+
+	@RepeatedTest(3) 
+	void computeCircleAreaRepeat(RepetitionInfo repetitionInfo) {
+		assertEquals(314.1592653589793, mathUtils.computeCircleArea(10), 
+				"Should return right circle area");
+	}
+
 	@Test
 	void testDivide() {
 		assertThrows(ArithmeticException.class, () -> mathUtils.divide(1, 0), 
